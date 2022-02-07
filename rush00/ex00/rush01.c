@@ -6,7 +6,7 @@
 /*   By: kferreir <kferreir@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/06 13:11:18 by faaugust          #+#    #+#             */
-/*   Updated: 2022/02/06 15:50:34 by kferreir         ###   ########.fr       */
+/*   Updated: 2022/02/07 17:40:18 by kferreir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@ void	ft_putchar(char c);
 
 void	func_while(int x, int y);
 
-void	rush01(int x, int y)
+void	rush(int x, int y)
 {
 	if (x <= 0 || y <= 0)
 		return ;
@@ -42,10 +42,10 @@ void	func_while(int x, int y)
 			else if (c == 0 || l == 0 || l == x || c == y)
 				ft_putchar('*');
 			else
-				ft_putchar (' ');
+				ft_putchar(' ');
 			l++;
 		}
 		c++;
-		ft_putchar ('\n');
-	}	
+		ft_putchar('\n');
+	}
 }

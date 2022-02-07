@@ -6,16 +6,16 @@
 /*   By: kferreir <kferreir@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/05 22:29:29 by kferreir          #+#    #+#             */
-/*   Updated: 2022/02/06 16:19:44 by kferreir         ###   ########.fr       */
+/*   Updated: 2022/02/07 17:41:25 by kferreir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	rush01(int x, int y);
+void	rush(int x, int y);
 void	ft_putchar(char c);
 
 int	main(void)
 {
-	rush01(5, 3);
+	rush(5, 3);
 	// ft_putchar('\n');
 	// rush01(5, 1);
 	// ft_putchar('\n');
